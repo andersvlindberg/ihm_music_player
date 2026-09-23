@@ -1,0 +1,32 @@
+html
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vår musikspelare</title>
+    <script src="app.js"defer></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Vår musikspelare</h1>
+      <p>Musik från vårt eget bibliotek</p>
+    </header>
+
+    <main>
+      <p id="status">Klienten har startat.</p>
+
+      <section>
+        <h2>Låtar</h2>
+        <div id="track-list"></div>
+      </section>
+
+      <section>
+        <h2>Nu spelas</h2>
+        <p id="now-playing">Ingen låt vald</p>
+        <audio id="audio-player" controls></audio>
+      </section>
+    </main>
+  </body>
+</html>
